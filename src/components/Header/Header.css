@@ -1,0 +1,32 @@
+﻿.header{
+    /*position: sticky;*/
+    /*top:-1px;*/
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px;
+}
+.github-link{
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+}
+.github_name{
+    font-size: 25px;
+    margin-left: 10px;
+    transition: color 0.3s ease-in;
+}
+.github_name:hover{
+    color: #9b9696;
+}
+.header-link{
+    text-decoration: none;
+    font-size: 18px;
+    transition: color 0.3s ease-in;
+}
+.header-link{
+    margin-left: 50px;
+}
+.header-link:hover{
+    color: #9b9696;
+}
