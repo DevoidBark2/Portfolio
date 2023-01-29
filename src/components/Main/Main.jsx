@@ -27,7 +27,7 @@ const Main = () => {
                         <p style={{textDecoration:'underline'}}>Junior Fronted Developer</p>
                     </div>
                     <p className="small-desc" style={{color:'red'}}>
-                        Я начинающий fronted-разработчик из Ярославля и поэтому я хочу показать свое портфолио в виде сайта.
+                        Я начинающий fronted-разработчик из Череповца и поэтому я хочу показать свое портфолио в виде сайта.
                     </p>
                 </div>
                 <div className="btn-link">
