@@ -16,7 +16,7 @@ const About = () =>{
                        <div className="block">
                            <div style={{display:'flex',flexDirection:'column',alignItems:'center'}}>
                                <AiOutlineCode size={30}/>
-                               <b style={{fontSize:'30px'}}>5 лет</b>
+                               <b style={{fontSize:'30px'}}>25 лет</b>
                                <p style={{fontSize:'15px'}}>в программировании</p>
                            </div>
                        </div>
