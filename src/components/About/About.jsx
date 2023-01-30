@@ -16,7 +16,7 @@ const About = () =>{
                        <div className="block">
                            <div style={{display:'flex',flexDirection:'column',alignItems:'center'}}>
                                <AiOutlineCode size={30}/>
-                               <b style={{fontSize:'30px'}}>25 лет</b>
+                               <b style={{fontSize:'30px'}}>5 лет</b>
                                <p style={{fontSize:'15px'}}>в программировании</p>
                            </div>
                        </div>
@@ -28,8 +28,9 @@ const About = () =>{
                            </div>
                        </div>
                    </div>
-                    <div style={{marginTop:'20px'}}>
-                        Занимаюсь программированием около 5 лет,в Fronted примерно 2 года.
+                    <div style={{marginTop:'40px',maxWidth:'600px'}}>
+                        Занимаюсь программированием около 5 лет,в Fronted примерно 2 года. Создаю веб-приложения на <strong>React</strong> и мобильные 
+                        приложения на <strong>React Native</strong>. Имеется базовый опыт в <strong>Python</strong> с некоторыми модулями(OpenCV,requests,beautifulsoup)
                     </div>
                     <div className="download_btn">
                         <a href='#'>Скачать PDF</a>
