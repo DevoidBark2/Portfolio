@@ -28,8 +28,11 @@ const About = () =>{
                            </div>
                        </div>
                    </div>
-                    <div>
-                        asdasd
+                    <div style={{marginTop:'20px'}}>
+                        Занимаюсь программированием около 5 лет,в Fronted примерно 2 года.
+                    </div>
+                    <div className="download_btn">
+                        <a href='#'>Скачать PDF</a>
                     </div>
                 </div>
             </div>
