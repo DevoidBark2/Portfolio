@@ -16,11 +16,12 @@
     max-width: 450px;
 }
 .small-desc{
+    font-size: 20px;
     color: #727271;
 }
 .profile-photo{
-    width: 300px;
-    height: 325px;
+    width: 425px;
+    height: 500px;
     border-radius: 50px;
 }
 .social-link{
@@ -30,7 +31,7 @@
     fill: #9b9696;
 }
 .btn-link{
-    margin-top: 50px;
+    margin-top: 150px;
 }
 .btn-link>a{
     color:white;

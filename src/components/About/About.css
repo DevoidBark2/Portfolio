@@ -6,8 +6,9 @@
 }
 .about-content{
     display: flex;
-    margin-left: 160px;
+    /* margin-left: 100px; */
     margin-top: 40px;
+    justify-content: space-evenly;
 }
 .content-photo>img{
     width: 300px;

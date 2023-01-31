@@ -23,7 +23,7 @@ const Main = () => {
             <div className="main-desc">
                 <div className="desc-info">
                     <div className="top-desc-info">
-                        <h1 style={{fontSize:'35px'}}>Петров Иван Михайлович <FaHandPeace fill="#e9aa17"/></h1>
+                        <h1 style={{fontSize:'37px'}}>Петров Иван Михайлович <FaHandPeace fill="#e9aa17"/></h1>
                         <p style={{textDecoration:'underline',fontSize:'20px'}}>Junior Fronted Developer</p>
                     </div>
                     <p className="small-desc">

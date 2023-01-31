@@ -6,7 +6,7 @@ import HardSkillItem from "./HardSkillItem/HardSkillItem";
 const HardSkill = () =>{
     return(
         <div className="hard-skill">
-            <h1>Hard Skill</h1>
+            <h1 className="hard-skill-title">Hard Skill</h1>
             <div className="hard-skill-content">
                 {
                     data.map(item => (

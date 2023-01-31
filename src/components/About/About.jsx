@@ -28,7 +28,7 @@ const About = () =>{
                            </div>
                        </div>
                    </div>
-                    <div style={{marginTop:'50px',maxWidth:'500px'}}>
+                    <div style={{marginTop:'50px',width:'500px'}}>
                         Занимаюсь программированием около 5 лет,в Fronted примерно 2 года. Создаю веб-приложения на <strong>React</strong> и мобильные 
                         приложения на <strong>React Native</strong>. Имеется базовый опыт в <strong>Python</strong> и работал с некоторыми модулями(OpenCV,requests,beautifulsoup)
                     </div>

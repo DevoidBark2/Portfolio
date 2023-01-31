@@ -2,36 +2,110 @@
     {
         "id":1,
         "title":"HTML",
-        "image":"./html.png"
+        "image":"./html.png",
+        "skill":[
+            {
+                "id":1,
+                "name":"Вертска Landing Page"
+            },
+            {
+                "id":2,
+                "name":"Адаптивная верстка"
+            }
+        ]
     },
     {
         "id":2,
         "title":"CSS",
-        "image":"./css.png"
+        "image":"./css.png",
+        "skill":[
+            {
+                "id":1,
+                "name":"Позиционирование"
+            },
+            {
+                "id":2,
+                "name":"Анимации"
+            }
+        ]
     },
     {
         "id":3,
         "title":"JS",
-        "image":"./js.png"
+        "image":"./js.png",
+        "skill":[
+            {
+                "id":1,
+                "name":"Базовые навыки"
+            },
+            {
+                "id":2,
+                "name":"Работа с DOM"
+            }
+        ]
     },
     {
         "id":4,
         "title":"React",
-        "image":"./react.png"
+        "image":"./react.png",
+        "skill":[
+            {
+                "id":1,
+                "name":"Создание функциональных компонентов"
+            },
+            {
+                "id":2,
+                "name":"Создание SPA-приложение"
+            }
+        ]
     },
     {
         "id":5,
         "title":"React Native",
-        "image":"./react.png"
+        "image":"./react.png",
+        "skill":[
+            {
+                "id":1,
+                "name":"Создание мобильного приложения"
+            },
+            {
+                "id":2,
+                "name":"Интеграция с БД"
+            }
+        ]
     },
     {
         "id":6,
         "title":"C#",
-        "image":"./csharp.png"
+        "image":"./csharp.png",
+        "skill":[
+            {
+                "id":1,
+                "name":"Создание приложений на .Net Framework"
+            },
+            {
+                "id":2,
+                "name":"Создание приложений на Xamarin"
+            }
+        ]
     },
     {
         "id":7,
         "title":"Python",
-        "image":"./python.png"
+        "image":"./python.png",
+        "skill":[
+            {
+                "id":1,
+                "name":"Парсинг сайтов"
+            },
+            {
+                "id":2,
+                "name":"Работа с библиотекой OpenCV"
+            },
+            {
+                "id":3,
+                "name":"Создание веб-приложений на Flask"
+            }
+        ]
     }
 ]
