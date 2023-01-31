@@ -1,0 +1,9 @@
+.hard-skill{
+    margin-top: 170px;
+}
+.hard-skill-content{
+    display: flex;
+    justify-content:center;
+    flex-wrap: wrap;
+    gap: 100px;
+}

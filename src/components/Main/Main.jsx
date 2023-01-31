@@ -23,11 +23,12 @@ const Main = () => {
             <div className="main-desc">
                 <div className="desc-info">
                     <div className="top-desc-info">
-                        <h1 style={{fontSize:'35px'}}>Петров Иван Михайлович <FaHandPeace fill="#eaea19"/></h1>
-                        <p style={{textDecoration:'underline'}}>Junior Fronted Developer</p>
+                        <h1 style={{fontSize:'35px'}}>Петров Иван Михайлович <FaHandPeace fill="#e9aa17"/></h1>
+                        <p style={{textDecoration:'underline',fontSize:'20px'}}>Junior Fronted Developer</p>
                     </div>
-                    <p className="small-desc" style={{color:'red'}}>
-                        Я начинающий fronted-разработчик из Череповца-Яросавль и поэтому я хочу показать свое портфолио в виде сайта.
+                    <p className="small-desc">
+                        Я начинающий fronted-разработчик из Ярославля и поэтому я хочу показать свое портфолио в виде сайта.
+                        Займет это у вас пару минут, но узнаете обо мне почти все.
                     </p>
                 </div>
                 <div className="btn-link">

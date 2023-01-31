@@ -28,9 +28,9 @@ const About = () =>{
                            </div>
                        </div>
                    </div>
-                    <div style={{marginTop:'40px',maxWidth:'600px'}}>
+                    <div style={{marginTop:'50px',maxWidth:'500px'}}>
                         Занимаюсь программированием около 5 лет,в Fronted примерно 2 года. Создаю веб-приложения на <strong>React</strong> и мобильные 
-                        приложения на <strong>React Native</strong>. Имеется базовый опыт в <strong>Python</strong> с некоторыми модулями(OpenCV,requests,beautifulsoup)
+                        приложения на <strong>React Native</strong>. Имеется базовый опыт в <strong>Python</strong> и работал с некоторыми модулями(OpenCV,requests,beautifulsoup)
                     </div>
                     <div className="download_btn">
                         <a href='#'>Скачать PDF</a>

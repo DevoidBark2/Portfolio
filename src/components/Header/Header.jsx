@@ -15,8 +15,9 @@ const Header = () =>{
             <nav className="header-nav">
                 <a href="#" className="header-link">Главная</a>
                 <a href="#" className="header-link">Обо мне</a>
-                <a href="#" className="header-link">Soft skill</a>
                 <a href="#" className="header-link">Hard skill</a>
+                <a href="#" className="header-link">Soft skill</a>
+                <a href="#" className="header-link">Мои работы</a>
                 <a href="#" className="header-link">Контакты</a>
             </nav>
         </div>
