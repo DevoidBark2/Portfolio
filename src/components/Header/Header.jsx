@@ -1,9 +1,29 @@
-﻿import React, {useState} from "react";
+﻿import React, {useContext} from "react";
 import './Header.css'
 import {AiFillGithub} from 'react-icons/ai'
+import { NavContext } from "../../context/navContext";
 
 const Header = () =>{
-    return(
+
+    const {activeLinkId} = useContext(NavContext)
+    console.log(activeLinkId)
+
+    const navLinks = ["Main","About","Hard Skill","Soft Skill","My Works","Contacts"]
+
+    const renderNavLink = (content) =>{
+        const scrollId = `${content.replace(/\s/g, '').toLowerCase()}`;
+
+        const handleClickNav = () => {
+            document.getElementById(scrollId).scrollIntoView({behavior:'smooth'})
+        }
+
+        return (
+            <p key={content} className={activeLinkId === content ? "header-link activeClass" : "header-link"} onClick={handleClickNav}>
+                {content}
+            </p>
+        )
+    }
+    return( 
         <div className="header">
             <div className="github-content">
                 <a href="https://github.com/DevoidBark2" className="github-link">
@@ -13,12 +33,7 @@ const Header = () =>{
             </div>
             
             <nav className="header-nav">
-                <a href="#" className="header-link">Главная</a>
-                <a href="#" className="header-link">Обо мне</a>
-                <a href="#" className="header-link">Hard skill</a>
-                <a href="#" className="header-link">Soft skill</a>
-                <a href="#" className="header-link">Мои работы</a>
-                <a href="#" className="header-link">Контакты</a>
+                {navLinks.map(nav => renderNavLink(nav))}
             </nav>
         </div>
     )

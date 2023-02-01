@@ -5,10 +5,12 @@ import About from "./components/About/About";
 import Main from "./components/Main/Main";
 import HardSkill from "./components/HardSkill/HardSkill";
 import SoftSkill from "./components/SoftSkill/SoftSkill";
+import NavProvider from "./context/navContext";
 
 const App =  ()  => {
   return (
     <div className="App">
+        <NavProvider>
         <div className="container">
             <Header/>
             <main>
@@ -18,6 +20,7 @@ const App =  ()  => {
                 <SoftSkill/>
             </main>
         </div>
+        </NavProvider>
     </div>
   );
 }

@@ -3,9 +3,12 @@ import './About.css'
 import photo from '../../images/photo.jpg'
 import {AiOutlineCode} from 'react-icons/ai'
 import {IoLogoJavascript} from 'react-icons/io'
+import { useNav } from '../../hooks/useNav'
 const About = () =>{  
+    const aboutRef = useNav("about")
+
     return(
-        <div className="about">
+        <div ref={aboutRef} className="about" id="about">
             <h1 className="about-title">Обо мне</h1>
             <div className="about-content">
                 <div className="content-photo">
