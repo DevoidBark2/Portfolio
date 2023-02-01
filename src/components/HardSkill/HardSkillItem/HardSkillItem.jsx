@@ -8,7 +8,7 @@ const HardSkillItem = ({item}) =>{
             <img src={item.image} className="card-img" alt={item.title}/>
             <div className="overlay">
                 <h2 className="card-title">{item.title}</h2>
-                <ul>
+                <ul style={{marginLeft:'3px'}}>
                     {item.skill.map(i => (
                         <li>{i.name}</li>
                     ))}
