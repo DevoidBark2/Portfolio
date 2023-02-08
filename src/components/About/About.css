@@ -1,14 +1,14 @@
 ﻿.about{
-    margin-top: 100px
+    padding-top: 200px;
+    height: 100vh;
 }
 .about-title{
     text-align: center;
 }
 .about-content{
     display: flex;
-    /* margin-left: 100px; */
     margin-top: 40px;
-    justify-content: space-evenly;
+    justify-content: space-between;
 }
 .content-photo>img{
     width: 300px;

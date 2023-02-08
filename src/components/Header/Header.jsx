@@ -1,6 +1,5 @@
 ﻿import React, {useContext} from "react";
 import './Header.css'
-import {AiFillGithub} from 'react-icons/ai'
 import { NavContext } from "../../context/navContext";
 
 const Header = () =>{
@@ -27,7 +26,7 @@ const Header = () =>{
         <div className="header">
             <div className="github-content">
                 <a href="https://github.com/DevoidBark2" className="github-link">
-                    <AiFillGithub size={25}/>
+                    <img src="/images/github.png" alt="github" width={50} height={50} className="github_logo"/>
                     <p className="github_name">DevoidBark2</p>
                 </a>
             </div>

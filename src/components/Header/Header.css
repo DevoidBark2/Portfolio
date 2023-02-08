@@ -1,39 +1,48 @@
 ﻿.header{
     position:fixed;
-    width: 80%;
+    width: 65%;
     top:0;
     display: flex;
     align-items: center;
     justify-content: space-between;
     padding: 20px;
+    background: none;
+}
+.github-content{
+    background: transparent;
+}
+.github_logo{
+    background: transparent;
 }
 .github-link{
     display: flex;
     align-items: center;
     text-decoration: none;
+    background: transparent;
 }
 .github_name{
     font-size: 25px;
     margin-left: 10px;
     transition: color 0.3s ease-in;
+    background: transparent;
 }
 .github_name:hover{
     color: #9b9696;
 }
 .header-nav{
     display: flex;
-}
-.header-link{
-    font-size: 18px;
+    background: transparent;
 }
 .header-link{
     margin-left: 50px;
     position: relative;
+    font-size: 18px;
+    background: transparent;
 }
 .header-link:not(.activeClass)::before{
     content: "";
     position: absolute;
-    height: 1px;
+    height: 2px;
     width: 100%;
     background-color: black;
     left: 0;
@@ -48,7 +57,7 @@
 .header-link.activeClass::before{
     content: "";
     position: absolute;
-    height: 1px;
+    height: 2px;
     width: 100%;
     background: black;
     bottom: -5px;
