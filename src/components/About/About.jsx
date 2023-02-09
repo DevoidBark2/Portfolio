@@ -1,21 +1,22 @@
 ﻿import React from 'react'
 import './About.css'
-import photo from '../../images/photo.jpg'
+import photo from '../../images/about_image.jpg'
 import {AiOutlineCode} from 'react-icons/ai'
 import {IoLogoJavascript} from 'react-icons/io'
 import { useNav } from '../../hooks/useNav'
 const About = () =>{  
-    const aboutRef = useNav("about")
+    const aboutRef = useNav("About")
 
     return(
         <div ref={aboutRef} className="about" id="about">
             <h1 className="about-title">Обо мне</h1>
+            <hr style={{marginTop:'50px',marginBottom:'100px',border:"none",color:'rgb(169,169,169)',backgroundColor:'rgb(169,169,169)',height:'1px'}}/>
             <div className="about-content">
                 <div className="content-photo">
-                    <img src={photo} alt="Photo"/>
+                    <img src={photo} alt="Photo" />
                 </div>
                 <div className="content-desc_1">
-                   <div className="content-desc">
+                    <div className="content-desc">
                        <div className="block">
                            <div style={{display:'flex',flexDirection:'column',alignItems:'center'}}>
                                <AiOutlineCode size={30}/>
@@ -31,7 +32,7 @@ const About = () =>{
                            </div>
                        </div>
                    </div>
-                    <div style={{marginTop:'50px'}}>
+                    <div style={{marginTop:'50px',fontSize:'20px'}}>
                         Занимаюсь программированием около 5 лет,в Fronted примерно 2 года. Создаю веб-приложения на <strong>React</strong> и мобильные 
                         приложения на <strong>React Native</strong>. Имеется базовый опыт в <strong>Python</strong> и работал с некоторыми модулями(OpenCV,requests,beautifulsoup)
                     </div>

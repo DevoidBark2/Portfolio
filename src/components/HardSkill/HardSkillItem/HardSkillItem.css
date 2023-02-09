@@ -1,9 +1,5 @@
 .skill-card{
-    /* position: relative;
-    width: 25%; */
     display: flex;
-    
-    /* width: 200px; */
 }
 .skill-card:hover{
     
@@ -12,8 +8,8 @@
     /* display: block;
     width: 100%;
     height: auto; */
-    width: 200px;
-    height: 200px;
+    width: 150px;
+    height: 150px;
 }
 .overlay{
     /* position:absolute;

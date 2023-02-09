@@ -9,7 +9,7 @@ const HardSkillItem = ({item}) =>{
                 <h2 className="card-title">{item.title}</h2>
                 <ul style={{marginLeft:'40px'}}>
                     {item.skill.map(i => (
-                        <li>{i.name}</li>
+                        <li key={i.id}>{i.name}</li>
                     ))}
                 </ul>
             </div>

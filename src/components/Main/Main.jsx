@@ -10,9 +10,8 @@ import { useNav } from "../../hooks/useNav";
 const Main = () => {
 
     const mainRef = useNav("Main")
-
     return(
-        <div ref={mainRef} className="main-content" id="main">
+        <div ref={mainRef}  className="main-content" id="main">
             <div className="main-links">
                 <a href="https://github.com/DevoidBark2">
                     <AiFillGithub size={35} className="social-link"/>

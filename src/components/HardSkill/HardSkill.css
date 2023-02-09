@@ -1,5 +1,6 @@
 .hard-skill{
-    margin-top: 170px;
+    /*margin-top: 170px;*/
+    padding-top: 100px;
     height: 100vh;
 }
 .hard-skill-content{
@@ -10,6 +11,4 @@
 }
 .hard-skill-title{
     text-align: center;
-    margin-top: 100px;
-    margin-bottom: 50px;
 }
