@@ -1,8 +1,14 @@
+.soft-skill{
+    height: 100vh;
+    padding-top: 100px;
+}
 .soft-skill-title{
     text-align: center;
 
 }
-
-.soft-skill-item{
-    font-size: 30px;
+.soft-skill-items{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    gap: 100px;
 }

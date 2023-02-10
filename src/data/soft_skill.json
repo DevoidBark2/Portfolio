@@ -1,14 +1,27 @@
 [
   {
     "id": 1,
-    "title": "Настойчивый"
+    "title": "Креативность",
+    "img": "/images/creativity.png"
   },
   {
     "id": 2,
-    "title": "Целеустременный"
+    "title": "Целеустременность",
+    "img": "/images/motivation.png"
   },
   {
     "id": 3,
-    "title": "Командный игрок"
+    "title": "Командный игрок",
+    "img": "/images/community.png"
+  },
+  {
+    "id": 4,
+    "title": "Контентрация",
+    "img": "/images/concentration.png"
+  },
+  {
+    "id": 5,
+    "title": "Стремление развивать навыки",
+    "img": "/images/skills.png"
   }
 ]

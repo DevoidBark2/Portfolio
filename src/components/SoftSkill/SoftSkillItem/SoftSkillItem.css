@@ -1,0 +1,14 @@
+.soft-skill-item{
+    padding: 20px;
+    text-align: center;
+}
+.soft-skill-img{
+    width: 200px;
+    height: 200px;
+    /*transition: all 2s ease-in;*/
+}
+.soft-skill-item:hover{
+    /*transform: scale(1.1);*/
+    box-shadow: 5px 5px 5px 5px rgba(0,0,0,.3);
+    transform: rotate(360deg);
+}
