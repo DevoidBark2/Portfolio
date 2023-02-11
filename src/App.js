@@ -6,6 +6,7 @@ import Main from "./components/Main/Main";
 import HardSkill from "./components/HardSkill/HardSkill";
 import SoftSkill from "./components/SoftSkill/SoftSkill";
 import NavProvider from "./context/navContext";
+import Works from "./components/Works/Works";
 
 const App =  ()  => {
   return (
@@ -18,6 +19,7 @@ const App =  ()  => {
                 <About/>
                 <HardSkill/>
                 <SoftSkill/>
+                <Works/>
             </main>
         </div>
         </NavProvider>

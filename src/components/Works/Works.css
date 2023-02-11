@@ -1,0 +1,31 @@
+.block-works{
+    height: 100vh;
+    padding-top: 100px;
+}
+.works-title{
+    text-align: center;
+}
+.categories-block{
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.categories-nav-menu{
+    display: flex;
+}
+.categories-item{
+    list-style: none;
+    margin-right: 20px;
+    background: #bdbdbd;
+    padding: 5px 10px;
+    border-radius: 20px;
+    transition: all 0.3s ease-in;
+}
+.categories-item:hover{
+    cursor: pointer;
+    background: #474848;
+    color:white;
+}
+.categories-item .active{
+    background: #474848;
+    color:white;
+}
