@@ -1,13 +1,20 @@
 ﻿[
   {
     "id": 1,
-    "name": "Курс по Http",
-    "description": ""
+    "type": "Web",
+    "image": "/images/web.png",
+    "title": "Курс по HTTP"
   },
   {
     "id": 2,
-    "name": "Мобильное приложение \"Travel App\"",
-    "description": ""
+    "type": "Web",
+    "image": "/images/web.png",
+    "title": "Todo"
+  },
+  {
+    "id": 3,
+    "type": "Desktop",
+    "image": "/images/desktop.png",
+    "title": "Виселица"
   }
-  
 ]

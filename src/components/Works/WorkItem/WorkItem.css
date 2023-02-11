@@ -1,0 +1,9 @@
+.work-item{
+    padding: 20px;
+    text-align: center;
+    background: #242626;
+}
+.work-item-img{
+    width: 200px;
+    height: 200px;
+}

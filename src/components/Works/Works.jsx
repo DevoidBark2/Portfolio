@@ -17,11 +17,13 @@ const Works = () => {
                     <li className="categories-item">Десктопные приложения</li>
                 </ul>
             </div>
-            {
-                data.map(work =>(
-                    <WorkItem name={work.name}/>
-                ))
-            }
+            <div className="work-items">
+                {
+                    data.map(work =>(
+                        <WorkItem work={work}/>
+                    ))
+                }
+            </div>
         </div>
     )
 }
