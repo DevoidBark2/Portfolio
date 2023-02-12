@@ -7,6 +7,7 @@ import HardSkill from "./components/HardSkill/HardSkill";
 import SoftSkill from "./components/SoftSkill/SoftSkill";
 import NavProvider from "./context/navContext";
 import Works from "./components/Works/Works";
+import Contacts from "./components/Contacts/Contacts";
 
 const App =  ()  => {
   return (
@@ -20,8 +21,12 @@ const App =  ()  => {
                 <HardSkill/>
                 <SoftSkill/>
                 <Works/>
+                <Contacts/>
             </main>
         </div>
+            {/*<Modal*/}
+            {/*    isOpened={true}*/}
+            {/*/>*/}
         </NavProvider>
     </div>
   );

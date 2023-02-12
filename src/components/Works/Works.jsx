@@ -5,9 +5,10 @@ import WorkItem from "./WorkItem/WorkItem";
 import {useNav} from "../../hooks/useNav";
 
 const Works = () => {
-    const worksRef = useNav("MyWorks");
+    const worksRef = useNav("Works");
+
     return(
-        <div ref={worksRef} className="block-works" id="myworks">
+        <div ref={worksRef} className="block-works" id="works">
             <h1 className="works-title">Мои работы</h1>
             <hr style={{marginTop:'50px',marginBottom:'70px',border:"none",color:'rgb(169,169,169)',backgroundColor:'rgb(169,169,169)',height:'1px'}}/>
             <div className="categories-block">
@@ -24,6 +25,9 @@ const Works = () => {
                     ))
                 }
             </div>
+            {/*<Modal*/}
+            {/*isOpened={true}*/}
+            {/*/>*/}
         </div>
     )
 }

@@ -3,18 +3,32 @@
     "id": 1,
     "type": "Web",
     "image": "/images/web.png",
-    "title": "Курс по HTTP"
+    "title": "Курс по HTTP",
+    "description": "Этот проект я считаю своим достоинсвом. На него было потрачено около 2 месяцеы безостановочной разработки в команде с моим одногруппником."
   },
   {
     "id": 2,
     "type": "Web",
     "image": "/images/web.png",
-    "title": "Todo"
+    "title": "Todo",
+    "description": "Это был мой первй проект на React. Считаю, что такой проект должен сделать любой начинающий программист."
   },
   {
     "id": 3,
     "type": "Desktop",
     "image": "/images/desktop.png",
     "title": "Виселица"
+  },
+  {
+    "id": 4,
+    "type": "Web",
+    "image": "/images/web.png",
+    "title": "Комментарии к изображению"
+  },
+  {
+    "id": 4,
+    "type": "Web",
+    "image": "/images/web.png",
+    "title": "Комментарии к изображению"
   }
 ]

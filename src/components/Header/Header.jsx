@@ -6,14 +6,13 @@ const Header = () =>{
 
     const {activeLinkId} = useContext(NavContext)
 
-    const navLinks = ["Main","About","Hard Skill","Soft Skill","MyWorks","Contacts"]
+    const navLinks = ["Main","About","Hard Skill","Soft Skill","Works","Contacts"]
 
     const renderNavLink = (content) =>{
         const scrollId = `${content.replace(/\s/g, '').toLowerCase()}`;
 
         const handleClickNav = () => {
             document.getElementById(scrollId).scrollIntoView({behavior:'smooth'})
-            console.log(scrollId)
         }
 
         return (
